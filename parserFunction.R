@@ -2,7 +2,7 @@ require(magrittr)
 args = commandArgs(trailingOnly = TRUE)
 inputFile <- args[1]
 outputFile <- args[2]
-inputFile <- "tmp7.gz"
+
 ##annotation rating
 annotationRanking <-
   c(
